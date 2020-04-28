@@ -53,7 +53,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='for face verification')
     parser.add_argument("-r", "--rec_path", help="mxnet record file path", default='faces_emore', type=str)
     args = parser.parse_args()
-    rec_path = Path('data')/args.rec_path
+    rec_path = Path('dataset')/args.rec_path
     load_mx_rec(rec_path)
 
     bin_files = ['agedb_30', 'cfp_fp', 'lfw', 'calfw', 'cfp_ff', 'cplfw', 'vgg2_fp']
