@@ -1,5 +1,5 @@
 ## Data Preparation
-This repository keeps a data preparation tool for converting `.bin` `.idx` `.rec` files in the MS1M-refine-v2 (emore) dataset into images.
+This repository keeps a data preparation tool for MS1M-refine-v2 (emore) dataset. It convert `mxnet.recordio` files (`.idx` `.rec`) and binary files (`.bin`) into `.jpg` and `.npy` format files for Pytorch usage.
 
 ## Usage
 
