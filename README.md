@@ -29,15 +29,15 @@ unzip faces_ms1m-refine-v2_112x112.zip?dl=1
   after the execution, you should find following structure:
 
   ```
-  prepare_data.py
-  dataset/
-     |___faces_emore/
-              |___ agedb_30/
-              |___ calfw/
-              |___ cfp_ff/
-              |___ cfp_fp/
-              |___ cplfw/
-              |___ imgs/
-              |___ lfw/
-              |___ vgg2_fp/
+  ├─ prepare_data.py
+  └─ dataset/
+        └─ faces_emore/
+                ├─ agedb_30/
+                ├─ calfw/
+                ├─ cfp_ff/
+                ├─ cfp_fp/
+                ├─ cplfw/
+                ├─ imgs/
+                ├─ lfw/
+                └─ vgg2_fp/
   ```
